@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Product Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+This project is a React-based product management application that utilizes an API to fetch product data. It incorporates Ant Design for table components and modals, enabling CRUD operations for editing or deleting product entries. Additionally, the application includes a dedicated page for adding new products to the list. It also provides statistics for total products and category-wise product distribution. React Router DOM is used for navigation within the application.
+Table of Contents
 
-In the project directory, you can run:
+    Features
+    Setup Instructions
+    Usage
+    API Integration
+    Ant Design Components
+    CRUD Operations
+    Adding New Products
+    Statistics
+    React Router DOM
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Fetches product data from an API.
+    Utilizes Ant Design for table components and modals.
+    Implements CRUD operations for editing or deleting product entries.
+    Includes a dedicated page for adding new products to the list.
+    Provides statistics for total products and category-wise product distribution.
+    Utilizes React Router DOM for navigation within the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Setup Instructions
 
-### `npm test`
+    Clone the repository to your local machine.
+    Install dependencies using npm install.
+    Start the development server using npm start.
+    Access the application through your browser at http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
 
-### `npm run build`
+    Upon accessing the application, navigate to the product list page.
+    View, edit, or delete existing products using the table interface.
+    Use the "Add Product" button to navigate to the dedicated page for adding new products.
+    View statistics for total products and category-wise product distribution.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+API Integration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    The application fetches product data from an external API to populate the product list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ant Design Components
 
-### `npm run eject`
+    Ant Design is utilized for table components and modals, providing a clean and user-friendly interface for managing products.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CRUD Operations
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    The application supports CRUD operations for editing or deleting product entries directly from the table interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Adding New Products
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Access the dedicated page for adding new products to the list.
+    Fill out the required fields in the form, including category, name, description, and price.
+    Submit the form to add the new product to the product list.
 
-## Learn More
+Statistics
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    View statistics for total products and category-wise product distribution directly within the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React Router DOM
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    React Router DOM is used for navigation within the application, ensuring seamless transitions between different pages.

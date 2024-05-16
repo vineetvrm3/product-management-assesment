@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  width: 100%;
+  background: #08aa79;
+}
+
+.header-container h1 {
+  color: #fff;
+  font-family: Bree serif;
+  font-size: 30px;
+}
+
+.link-el {
+  text-decoration: none;
+}
+
+.link-el p {
+  color: #fff;
+  list-style: none;
+  font-weight: bold;
+  font-family: Roboto;
+}

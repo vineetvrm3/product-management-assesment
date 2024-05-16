@@ -1,0 +1,29 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.modal-container label {
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+.products-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.products-list-container button {
+  width: 120px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #08aa79;
+  border-radius: 5px;
+  align-self: center;
+  cursor: pointer;
+  margin: 10px;
+}
