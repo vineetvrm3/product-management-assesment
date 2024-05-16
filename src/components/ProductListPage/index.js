@@ -66,7 +66,10 @@ const ProductListPage = () => {
               { text: "groceries", value: "groceries" },
               { text: "home-decoration", value: "home-decoration" },
             ],
-            onFilter: (value, record) => record.category.indexOf(value) === 0,
+            onFilter: (value, record) =>
+              record.category.indexOf(value) === 0 ||
+              record.description.toLowerCase().includes(value.toLowerCase()) ||
+              record.title.toLowerCase().includes(value.toLowerCase()),
           },
 
           {
